@@ -3,6 +3,6 @@
 
 using namespace std;
 int main(){
-cout << "code";
+cout << "MY NEW LIBRARY PROJECT";
 return 0;
 }
