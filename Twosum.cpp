@@ -3,11 +3,18 @@
 using namespace std;
 
 int main(){
+    int entry;
     bool found = false;
-    vector <int> TwoSum{3, 3};
-    int target = 6;
-
-    for (int i = 0; i < TwoSum.size(); i++){
+    vector <int> TwoSum;
+    int target = 5;
+    TwoSum.push_back(2);
+    TwoSum.push_back(2);
+    TwoSum.push_back(2);
+    TwoSum.push_back(2);
+    TwoSum.push_back(2);
+    TwoSum.push_back(2);
+    cout << "Two Sum capacity: "<<TwoSum.capacity();
+    /* for (int i = 0; i < TwoSum.size(); i++){
         for (int j = 0; j < TwoSum.size(); j++){
             if (!(j == i)){
                 int sum = TwoSum[j] + TwoSum[i];
@@ -28,6 +35,6 @@ int main(){
     
     if (!found){
         cout << "No Match";
-    }
+    } */
     return 0;
-}
+} 
