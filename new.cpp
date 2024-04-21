@@ -8,4 +8,4 @@ int main(){
     data = &number;
     cout << *data;
     return 0;
-}
+}asdsad
