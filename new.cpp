@@ -6,6 +6,6 @@ int main(){
     int *data = NULL;
     int number = 5;
     data = &number;
-    cout << *data;
+    cout << data;
     return 0;
-}asdsad
+}
