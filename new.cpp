@@ -1,8 +1,8 @@
 #include <iostream>
-sd
+
 using namespace std;
 
 int main(){
-
+    cout << "Hello Nigga";
     return 0;
 }
