@@ -1,4 +1,8 @@
-hello world
+#include <iostream>
 
-grunkly
-asdasd
+using namespace std;
+
+int main(){
+
+    return 0;
+}
