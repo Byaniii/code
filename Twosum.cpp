@@ -14,7 +14,7 @@ int main(){
     TwoSum.push_back(2);
     TwoSum.push_back(2);
     cout << "Two Sum capacity: "<<TwoSum.capacity();
-    /* for (int i = 0; i < TwoSum.size(); i++){
+    for (int i = 0; i < TwoSum.size(); i++){
         for (int j = 0; j < TwoSum.size(); j++){
             if (!(j == i)){
                 int sum = TwoSum[j] + TwoSum[i];
@@ -35,6 +35,6 @@ int main(){
     
     if (!found){
         cout << "No Match";
-    } */
+    }
     return 0;
 } 
